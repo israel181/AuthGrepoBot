@@ -81,16 +81,6 @@ client.on('messageCreate', async (message) =>{
         const command = args.shift().toLowerCase()
     
         if(command === 'registro'){
-            /*const filter = m => m.author.id === message.author.id;
-            const collector = message.channel.createMessageCollector({ filter, time: 15000 });
-            
-            collector.on('collect', m => {
-                console.log(`Collected ${m.content}`);
-            });
-            
-            collector.on('end', collected => {
-                console.log(`Collected ${collected.size} items`);
-            });*/
             mensaje(message)
         }
 
